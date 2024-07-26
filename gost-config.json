@@ -1,0 +1,8 @@
+{
+    "ServeNodes": [
+        "tcp://0.0.0.0:8080"
+          ],
+            "ChainNodes": [
+                "forward+tls://127.0.0.1:25565"
+                  ]
+}
