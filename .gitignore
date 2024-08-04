@@ -1,0 +1,15 @@
+/Python*
+/work_area*
+/minecraft_server
+/servidor_minecraft_old
+/tailscale-cs
+/thanos
+/servers
+/bkdir
+/vendor
+composer.*
+configuration.json
+*.txt
+*.pyc
+*.msp
+*.output
