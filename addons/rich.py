@@ -29,12 +29,15 @@ def create_repo_in_another_account():
     os.system('git add .')
     os.system('git commit -m "Primer commit desde Codespace"')
 
+    # Obtener la rama actual
+    branch_name = get_current_branch()
+
     # Configurar el origen remoto y hacer push
     remote_url = f'https://{token}@github.com/{account_name}/{repo_name}.git'
     os.system(f'git remote add origin {remote_url}')
     
-    # Hacer push a la rama principal
-    os.system('git push -u origin main')
+    # Hacer push a la rama actual
+    os.system(f'git push -u origin {branch_name}')
 
 if __name__ == "__main__":
     create_repo_in_another_account()
