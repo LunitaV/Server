@@ -1,0 +1,17 @@
+{
+	id: "f66e218c-ea79-3c72-b73a-94e0221cf7ff"
+	type: "player"
+	player_name: "Fr4nko7k"
+	ranks: {
+		f66e218c-ea79-3c72-b73a-94e0221cf7ff: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Fr4nko7k"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF5F59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
